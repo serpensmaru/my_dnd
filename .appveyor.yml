@@ -1,7 +1,7 @@
 
 environment:
   access_token:
-    secure: oyWN0U3twXyCpgzZpTmMNFJw0ejkR5VUCZta3+ytgX2QTvwHyPLRmR/Esu1wGeEL
+    secure: +zw3wEWftBABcTsUKYuV9q9m/g1rVnPeYLd5Ztl+Jh8GUpjD++OkwmLUbseU6VeI
 
 image: Ubuntu1804  # образ для сборки
 
