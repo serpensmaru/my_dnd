@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #85b200;
+  background-image: url(../img/leaves.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.columns {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column-item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  background: #fff2e1;
+  margin: 5%;
+  padding: 1%;
+  border-radius: 7px;
+}
+
+.column-item:nth-child(2) {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.column_title {
+  font-size: 3vh;
+  margin-left: 5%;
+  color: #162c05;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 80px;
+}
+
+.card_content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+
+}
+
+.card_input {
+  margin: 2%;
+  width: 96%;
+  min-height: 80px;
+  border-radius: 7px;
+  border: 1px solid rgb(235, 99, 99);
+  box-shadow: 10px 5px 5px rgb(241, 131, 131);
+  
+  font-size: 16px;
+  color: indigo;
+  padding: 20px;
+
+  resize: vertical;
+  max-height: 500px;
+}
+
+.card_input:hover {
+  border: 2px solid rgb(138, 11, 11);
+  box-shadow: 10px 5px 5px rgb(167, 6, 6);
+}
+
+.card_input:focus {
+  outline:none;
+  border: 3px solid rgb(99, 3, 3);
+  box-shadow: 15px 7px 7px rgb(92, 1, 1);
+}
+
+.card_delete {
+  background-color: rgb(235, 99, 99);
+  margin-left: -40px;
+  margin-top: 15px;
+  width: 20px;
+  height: 20px;
+  outline:none;
+  border: 1px solid rgb(192, 30, 30);
+  box-shadow: 7px 5px 5px rgb(218, 85, 85);
+  border-radius: 5px;
+  color: rgb(192, 30, 30);
+}
+
+.card_delete:hover {
+  background-color: rgb(192, 30, 30);
+  border: 2px solid rgb(78, 6, 6);
+  box-shadow: 7px 5px 5px rgb(192, 30, 30);
+  color: rgb(78, 6, 6);
+  cursor: pointer;
+}
+
+.card_control {
+  margin: 2%;
+}
+
+.card_add {
+  background-color: #cce91b;
+  width: 15vh;
+  height: 5vh;
+  box-shadow: 10px 5px 5px #85b200;
+  border-radius: 5px;
+  color: #2e6900;
+  border: 1px solid #2e6900;
+  font-size: 16px;
+}
+
+.card_add:hover {
+  background-color: #7aa305;
+  box-shadow: 10px 5px 5px #5a9006;
+  color: #162c05;
+  border: 2px solid #162c05;
+  cursor: pointer;
+}
+
+.an_card_add {
+  color: #2e6900;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.an_card_add:hover {
+  color: #214703;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.dragged {
+  position: absolute;
+  z-index: 999;
+  pointer-events: none;
+  max-width: 400px;
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+  transform: rotate(-5deg);
+}
+
+.card_clone {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.card_clone_input {
+  background-color: darkslategrey;
+  margin: 2%;
+  width: 96%;
+  height: 80px;
+  border-radius: 7px;
+  border: 1px solid rgb(102, 85, 85);
+  box-shadow: 10px 5px 5px rgb(68, 58, 58);
+  
+  font-size: 16px;
+  color: rgb(231, 214, 243);
+  padding: 20px;
+
+  resize:none;
+}
