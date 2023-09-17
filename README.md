@@ -1,6 +1,6 @@
 #CI Test Demo
 
-[![Build status](https://ci.appveyor.com/api/projects/status/bbq77uatbp0nw7mb/branch/master?svg=true)](https://ci.appveyor.com/project/serpensmaru/hw-dnd/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/92u53x9i6iyeeo00/branch/master?svg=true)](https://ci.appveyor.com/project/serpensmaru/my-dnd/branch/master)
 
 
 # Домашнее задание к занятию "6. Работа с файлами, DnD"
